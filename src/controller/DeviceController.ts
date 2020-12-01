@@ -8,9 +8,7 @@ import { DeviceService } from "../Service/DeviceService";
 
 export class DeviceController {
 
-    public constructor(private readonly _deviceService:DeviceService){        
-        this._deviceService =  _deviceService;             
-    }   
+     
     
     getSensors = async (req:Request,res:Response)=>{   
         //let sensors:any[] = await this._deviceService.getSensors(req.body);
